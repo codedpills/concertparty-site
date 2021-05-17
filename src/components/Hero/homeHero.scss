@@ -1,0 +1,13 @@
+.home-hero {
+    .home-carousel-item {
+        height: 500px !important;
+
+        .carousel-caption {
+            right: 0;
+            bottom: 20%;
+            left: 10%;
+            text-align: left;
+            width: 500px;
+        }
+    }
+}
