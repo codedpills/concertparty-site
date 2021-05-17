@@ -1,0 +1,20 @@
+.footer {
+    background-color: rgba(28, 58, 114);
+    color: whitesmoke;
+    padding: 2rem 0;
+
+    .footer-links > li {
+        font-size: 1.3rem;
+        float: right;
+        padding-left: 2rem;
+        list-style: none;
+
+        a {
+            color: whitesmoke;
+
+            &:hover {
+                color: lighten(purple, 10%);
+            }
+        }
+    }
+}
