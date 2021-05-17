@@ -1,6 +1,8 @@
 import React from "react"
 import "bootstrap-icons/font/bootstrap-icons.css"
 
+import './footer.scss'
+
 const Footer = () => {
   return (
     <div className="footer">
