@@ -1,14 +1,12 @@
 import React from "react"
-import MainNavbar from "../components/Navbar/MainNavbar"
-import Footer from "../components/Footer/Footer"
+
+import Layout from "../components/Layout"
 
 const Index = () => {
   return (
-    <div>
-      <MainNavbar />
+    <Layout>
       <h1>Welcome to Concert Party!</h1>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
