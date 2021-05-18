@@ -3,6 +3,8 @@ import Form from "react-bootstrap/Form"
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
 
+import './emailListForm.scss'
+
 const EmailListForm = () => {
   return (
     <div className="email-list-form">
