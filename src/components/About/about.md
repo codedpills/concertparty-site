@@ -1,5 +1,5 @@
 ---
-title: Why Concert Party
+title: Why Concert Party Rocks
 ---
 
 Concert Party is a global community connecting music and show lovers to the most amazing
