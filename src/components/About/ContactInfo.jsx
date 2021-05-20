@@ -2,7 +2,7 @@ import React from "react"
 
 const ContactInfo = () => {
   return (
-    <div class="contact-info">
+    <div className="contact-info">
       <h4>Find Us</h4>
       <div className="location">
         <h5>Location</h5>
@@ -11,7 +11,7 @@ const ContactInfo = () => {
           width=""
           height=""
           style={{ border: "0", marginTop: "0.5rem" }}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
         ></iframe>
         <ul>
