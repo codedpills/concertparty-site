@@ -7,7 +7,7 @@ import Concert from "./Concert"
 const FeaturedConcerts = () => {
   const data = useStaticQuery(graphql`
     query {
-      allContentfulFeaturedconcerts {
+      allContentfulFeaturedconcerts(sort: {fields: createdAt}) {
         nodes {
           name
           day
