@@ -8,4 +8,13 @@
 
 .featured-concerts {
     margin: 4rem 0;
+
+    .concert-link {
+        color: inherit;
+
+        &:hover {
+            text-decoration: none;
+            color: purple;
+        }
+    }
 }
