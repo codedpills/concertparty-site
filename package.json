@@ -9,6 +9,7 @@
     "bootstrap-icons": "1.4.0",
     "dotenv": "^9.0.2",
     "gatsby": "^3.4.1",
+    "gatsby-background-image": "^1.5.3",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
     "gatsby-plugin-image": "^1.4.0",
     "gatsby-plugin-manifest": "^3.4.0",
