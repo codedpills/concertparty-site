@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout'
+import Profile from '../components/Profile/Profile';
 
 const dashboard = () => {
     return (
@@ -10,7 +11,7 @@ const dashboard = () => {
                 <br/>
                 <div className="row">
                     <div className="col-3">
-                        Profile
+                        <Profile />
                     </div>
                     <div className="col">
                         my concerts
