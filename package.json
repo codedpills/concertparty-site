@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "4.6.0",
     "bootstrap-icons": "1.4.0",
     "dotenv": "^9.0.2",
