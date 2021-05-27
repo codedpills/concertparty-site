@@ -6,10 +6,10 @@ import "bootstrap-icons/font/bootstrap-icons.css"
 import MainNavbar from "./Navbar/MainNavbar"
 import Footer from "./Footer/Footer"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, ...props }) => {
   return (
     <>
-      <MainNavbar />
+      <MainNavbar auth={props.auth} />
       {children}
       <Footer />
     </>
