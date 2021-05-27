@@ -1,7 +1,30 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/node-apis/
- */
+const path = require("path")
 
-// You can delete this file if you're not using it
+exports.createPages = async ({ graphql, actions }) => {
+  const concertDetailsTemplate = path.resolve(
+    `./src/templates/ConcertDetails.jsx`
+  )
+
+  // query slugs from Contentful
+  const result = await graphql(`
+    query {
+        allContentfulFeaturedconcerts {
+            nodes {
+                slug
+            }
+        }
+    }
+  `)
+
+  // create pages for each concert
+  const nodes = result.data.allContentfulFeaturedconcerts.nodes
+  nodes.map((node) => {
+    node.url = `/concerts/${node.slug}`
+
+      actions.createPage({
+          path: node.url,
+          component: concertDetailsTemplate,
+          context: { slug: node.slug}
+      })
+  })
+}
