@@ -1,24 +1,31 @@
 .login-wrapper {
-    min-height: 100vh;
+  min-height: 100vh;
 
-    .login-form-section {
-        padding: 4rem;
+  .login-form-section {
+    padding: 4rem;
 
-        .logo-area {
-            text-align: center;
+    .logo-area {
+      text-align: center;
 
-            .logo-concert {
-                color: lighten(purple, 10%);
-                font-size: 2rem;
-            }
-            .logo-party {
-                color: purple;
-                font-size: 2rem;
-            }
-        }
-
-        .form-area {
-            margin-top: 2rem;
-        }
+      .logo-concert {
+        color: lighten(purple, 10%);
+        font-size: 2rem;
+      }
+      .logo-party {
+        color: purple;
+        font-size: 2rem;
+      }
     }
+
+    .form-area {
+      margin-top: 2rem;
+    }
+  }
+
+  .background-section {
+    .bg-text {
+      color: white;
+      padding: 50% 2rem 2rem 4rem;
+    }
+  }
 }
