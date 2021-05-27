@@ -1,0 +1,24 @@
+.login-wrapper {
+    min-height: 100vh;
+
+    .login-form-section {
+        padding: 4rem;
+
+        .logo-area {
+            text-align: center;
+
+            .logo-concert {
+                color: lighten(purple, 10%);
+                font-size: 2rem;
+            }
+            .logo-party {
+                color: purple;
+                font-size: 2rem;
+            }
+        }
+
+        .form-area {
+            margin-top: 2rem;
+        }
+    }
+}
