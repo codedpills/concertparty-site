@@ -1,6 +1,9 @@
 .profile {
     min-height: 200px;
     padding: 2rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 
     .img-section {
         display: flex;
