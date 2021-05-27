@@ -1,5 +1,5 @@
 ---
-title: Why Concert Party
+title: Why Concert Party Rocks
 ---
 
 Concert Party is a global community connecting music and show lovers to the most amazing
@@ -11,6 +11,8 @@ We seek to:
 - Recognize and respect the core values of our musical community, which we are a reflection of.
 - Explore and experience the greatest music on earth, and share our discoveries with you.
 - Expose music of true substance and character, and promote it everywhere.
+
+![company](../../images/company/duy-pham-Cecb0_8Hx-o-unsplash.jpg)
 
 
 Established in 2020, Concert Party is the premier destination online for fans of live music. By providing the largest database of show listings and ticket information, authoritative content and personalization tools for fans, Concert Party connects music fans with the music shows they love and empowers them to go see live music concerts. 
