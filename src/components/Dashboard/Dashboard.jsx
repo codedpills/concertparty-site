@@ -4,6 +4,8 @@ import Tab from "react-bootstrap/Tab"
 
 import './dashboard.scss'
 
+import Concerts from "./Concerts"
+
 const Dashboard = () => {
   return (
     <div className="dashboard shadow mb-5 bg-white rounded p-3">
@@ -13,7 +15,10 @@ const Dashboard = () => {
         </div>
         <Tabs defaultActiveKey="upcoming">
           <Tab eventKey="upcoming" title="Upcoming">
-            <div className="upcoming">upcoming concerts</div>
+            <div className="upcoming">
+                <Concerts />
+                <Concerts />
+            </div>
           </Tab>
           <Tab eventKey="booked" title="Booked">
             <div className="booked">You have no booked concerts yet.</div>
