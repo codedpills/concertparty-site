@@ -1,0 +1,19 @@
+.profile {
+    min-height: 200px;
+    padding: 2rem;
+
+    .img-section {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+        img {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+        }
+    }
+
+    .text-section {
+        text-align: center;
+    }
+}

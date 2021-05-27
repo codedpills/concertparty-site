@@ -6392,6 +6392,34 @@ gatsby-recipes@^0.15.1:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
+<<<<<<< HEAD
+=======
+gatsby-source-contentful@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-5.5.0.tgz#3bf5a0e696b0ccc92a6ba47b02d1003cc41e160d"
+  integrity sha512-9G4LS98COOQ1lmfzWvVFJyAB8DEON4tmJdLrxSmOrrCnrE59+KnoiIUfkTfYVXbml5lapmYYXjSG/eL11YcPKw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@contentful/rich-text-react-renderer" "^14.1.2"
+    "@contentful/rich-text-types" "^14.1.2"
+    "@hapi/joi" "^15.1.1"
+    "@vercel/fetch-retry" "^5.0.3"
+    axios "^0.21.1"
+    chalk "^4.1.0"
+    common-tags "^1.8.0"
+    contentful "^8.1.7"
+    fs-extra "^9.1.0"
+    gatsby-core-utils "^2.5.0"
+    gatsby-plugin-utils "^1.5.0"
+    gatsby-source-filesystem "^3.5.0"
+    is-online "^8.5.1"
+    json-stringify-safe "^5.0.1"
+    lodash "^4.17.21"
+    node-fetch "^2.6.1"
+    p-queue "^6.6.2"
+    qs "^6.9.6"
+    retry-axios "^2.4.0"
+>>>>>>> 36--dashboard-component
 gatsby-remark-images@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-5.2.1.tgz#6ab97ef336cc26b00f6f125f5c193651787a7682"
