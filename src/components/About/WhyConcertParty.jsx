@@ -13,7 +13,7 @@ const WhyConcertParty = () => {
     }
   `)
 
-  console.log(data)
+  // console.log(data)
 
   return (
     <div className="why-concert-party">
