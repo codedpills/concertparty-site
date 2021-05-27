@@ -6,7 +6,7 @@ import img from "../../images/hero/anthony-delanoix-hzgs56Ze49s-unsplash.jpg"
 const WhyConcertParty = () => {
   const data = useStaticQuery(graphql`
     query {
-      markdownRemark {
+      markdownRemark(frontmatter: {title: {eq: "Why Concert Party Rocks"}}) {
         frontmatter {
           title
         }
