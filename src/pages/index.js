@@ -1,12 +1,12 @@
 import React from "react"
-import MainNavbar from '../components/Navbar/MainNavbar'
+
+import Layout from "../components/Layout"
 
 const Index = () => {
   return (
-    <div>
-        <MainNavbar />
+    <Layout>
       <h1>Welcome to Concert Party!</h1>
-    </div>
+    </Layout>
   )
 }
 
